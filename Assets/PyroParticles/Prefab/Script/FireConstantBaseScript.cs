@@ -76,7 +76,7 @@ namespace DigitalRuby.PyroParticles
 
         protected override void Awake()
         {
-            base.Awake();
+            //base.Awake();
 
             // constant effect, so set the duration really high and add an infinite looping sound
             LoopingAudioSource = new LoopingAudioSource(this, AudioSource, StartTime, StopTime);
