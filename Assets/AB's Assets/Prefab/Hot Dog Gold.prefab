@@ -12,9 +12,11 @@ GameObject:
   - component: {fileID: 75950938626564692}
   - component: {fileID: 75950938625466516}
   - component: {fileID: 1175268611}
+  - component: {fileID: 7595997409245953985}
+  - component: {fileID: 2522771977070161595}
   m_Layer: 0
   m_Name: Hot Dog Gold
-  m_TagString: Untagged
+  m_TagString: Collectible
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -94,5 +96,30 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4ceea712494a0474d96182781134601e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &7595997409245953985
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 75950938623475284}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.9462204, y: 0.7902207, z: 1.3063011}
+  m_Center: {x: -0.005312799, y: 0.012649447, z: -0.00012207031}
+--- !u!114 &2522771977070161595
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 75950938623475284}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3c06475e39529440b159baa1284a165, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
