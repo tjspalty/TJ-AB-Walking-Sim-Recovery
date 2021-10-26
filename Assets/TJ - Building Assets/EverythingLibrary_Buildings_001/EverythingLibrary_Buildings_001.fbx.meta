@@ -4,6 +4,7 @@ ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -39,6 +40,9 @@ ModelImporter:
   externalObjects: {}
 >>>>>>> main
 >>>>>>> main
+=======
+  externalObjects: {}
+>>>>>>> DEV-New-MERGE
   materials:
     materialImportMode: 2
     materialName: 0
