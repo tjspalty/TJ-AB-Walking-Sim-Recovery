@@ -18,8 +18,15 @@ public class DeleteHD : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        if(other.CompareTag("Collectible"))
+       Debug.Log("HD Picked");
+        if(other.name == "Player Main")
         {
+            other.GetComponent<CountHD>().hotdogs++;
+
+            // AudioSource audio = other.GetComponent<AudioSource>(); //Get audio from object
+            // audio.Play(); //Play it
+            // other.gameObject.SetActive(false);
+
             Destroy(gameObject);
         }
     }
