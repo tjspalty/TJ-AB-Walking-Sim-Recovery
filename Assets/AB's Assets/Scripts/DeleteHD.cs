@@ -21,6 +21,7 @@ public class DeleteHD : MonoBehaviour
        Debug.Log("HD Picked");
         if(other.name == "Player Main")
         {
+            other.GetComponent<CountHD>().hotdogs++;
             Destroy(gameObject);
         }
     }
