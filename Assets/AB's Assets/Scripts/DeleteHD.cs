@@ -22,6 +22,11 @@ public class DeleteHD : MonoBehaviour
         if(other.name == "Player Main")
         {
             other.GetComponent<CountHD>().hotdogs++;
+
+            // AudioSource audio = other.GetComponent<AudioSource>(); //Get audio from object
+            // audio.Play(); //Play it
+            // other.gameObject.SetActive(false);
+
             Destroy(gameObject);
         }
     }
