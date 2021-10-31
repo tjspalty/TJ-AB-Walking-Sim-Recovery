@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class DeleteHD : MonoBehaviour
 {
+
+    // public AudioClip audioEating;
+    // AudioSource eatingAudio = new AudioSource();
+
     // Start is called before the first frame update
     void Start()
     {
@@ -23,8 +27,9 @@ public class DeleteHD : MonoBehaviour
         {
             other.GetComponent<CountHD>().hotdogs++;
 
-            // AudioSource audio = other.GetComponent<AudioSource>(); //Get audio from object
-            // audio.Play(); //Play it
+            // eatingAudio = GetComponent<AudioSource>(); //Get audio from object
+            // eatingAudio.clip = audioEating;
+            // eatingAudio.Play(); //Play it
             // other.gameObject.SetActive(false);
 
             Destroy(gameObject);
